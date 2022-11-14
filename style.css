@@ -1,21 +1,29 @@
 body {
     width: 1500px;
     margin: 0 auto;
-    background-color: lightgray;
+    background-color: #efe8e7;
     font-family: 'Comfortaa', cursive;
     text-align: center;
     padding: 10px;
-    font-size: 20px
+    font-size: 20px;
+    color: #7A5B9A;
 }
 
 h1 {
    width: 1500px;
    text-align: center;
    font-family: 'Yellowtail', cursive;
+   color: #7A5B9A;
 }
 
 h2 {
     font-family: 'Noto Serif JP', serif;
+    color: #7A5B9A;
+}
+
+h3 {
+    font-family: 'Yellowtail', cursive;
+    color: #7A5B9A;
 }
 
 .topnav {
@@ -39,7 +47,7 @@ h2 {
 .column {
     float: left;
     width: 23%;
-    padding: 15px;
+    padding: 10px;
 }
 
 .row:after {
@@ -68,4 +76,49 @@ h2 {
 
 .row3:after {
     content: "";
-    
+}
+
+footer {
+   width: 1500px;
+    text-align: center;
+   padding: 20px;
+    background-color: lightgray
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #7A5B9A;
+  color: white;
+}
+
+.fa-twitter {
+  background: #7A5B9A;
+  color: white;
+}
+
+.fa-instagram {
+  background: #7A5B9A;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #7A5B9A;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
