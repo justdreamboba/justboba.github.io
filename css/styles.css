@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #CCCCCC;
+	font-size: 20px;
+}
+
+#wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #575757;
+	min-height: 200px;
+	padding: 1em; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: #6C73B6;
+	padding: 1em;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+	margin-right: 3.5em;
+}
+
+nav li:last-child{
+	margin-right: 0;
+}
