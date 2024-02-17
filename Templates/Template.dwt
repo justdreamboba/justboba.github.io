@@ -9,6 +9,9 @@
 <!-- TemplateEndEditable -->
 <link href="../css/normalize.css" rel="stylesheet" type="text/css">
 <link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<!-- TemplateParam name="Main only" type="boolean" value="true" -->
+<!-- TemplateParam name="Main and Aside" type="boolean" value="true" -->
 </head>
 
 <body>
@@ -25,11 +28,29 @@
 		<li><a href="../contact/index.html">Contact Us</a></li>
 	 </ul>
 	</nav>
-	<main>
+	
+  	<!-- TemplateBeginIf cond="_document['Main only']" -->
+  	<main> 
+		<!-- TemplateBeginEditable name="Full width page content" -->Full width page content goes here. 
+		<!-- TemplateEndEditable --> 
 	</main>
-	<aside>
+	<!-- TemplateEndIf -->
+	
+	<!-- TemplateBeginIf cond="_document['Main and Aside']" -->
+	<main class="main_with_aside"> 
+		<!-- TemplateBeginEditable name="Main Page Content" -->Main Page Content goes here. 
+		<!-- TemplateEndEditable --> 
+	</main>
+    <aside>
+		<h2>Join the Just Boba Family!</h2>
+		<p>Sign up to receive the latest news, and exclusive promotions</p>
+		<p><a href="#"class="button">JOIN</a></p>
 	</aside>
+	<!-- TemplateEndIf -->
+	<div class="clearfix"></div>
+	
 	<footer>
+		<p>© COPYRIGHT 2024 JUST BOBA  •  TERMS OF USE  •  <a href="../privacy policy/index.html">PRIVACY POLICY</a></p>
 	</footer>
 </div>
 </body>
