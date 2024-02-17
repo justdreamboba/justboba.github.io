@@ -7,8 +7,8 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="../css/normalize.css" rel="stylesheet" type="text/css">
-<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 <!-- TemplateParam name="Main only" type="boolean" value="true" -->
 <!-- TemplateParam name="Main and Aside" type="boolean" value="true" -->
