@@ -8,14 +8,26 @@ body{
 	line-height: 1.5em; /*30px*/
 }
 
-h1, h2, h3, h4{
+h1{
 	font-family: "Sora", sans-serif;
 }
 
 h2{
+	font-family: "Sora", sans-serif;
 	color: #B6BBE3;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
 }
 
+h3{
+	font-family: "Shrikhand", serif;
+	font-size: 2em;
+	font-weight: 400;
+	text-align: center;
+}
+
+/*LINKS*/
 a:link, a:visited, a:active{
 	color: #6C73B6;
 	font:italicbold;
@@ -28,25 +40,29 @@ a:hover, a:focus{
 }
 
 /*BUTTON*/
-.button:link, .button:visited, .button:active{
+.button,.button:link, .button:visited, .button:active{
 	color: #6C73B6;
 	background-color: #B6BBE3;
 	padding: 1em;
 	margin-top: 1.5em;
+	max-width: 400px;
+	text-align: center;
+	border-radius: 8px;
 }
 
 .button:hover, .button:focus{
 	background-color: #CCCCCC;
 	border-bottom: none;
+	border: 2px solid #000000;
 }
 
 /*IMAGES*/
-.left-align{
+.left_align{
 	float:left;
 	margin-right: 0 1em 0 0;
 }
 
-.right-align{
+.right_align{
 	float:right;
 	margin-left: 1em;
 }
@@ -77,12 +93,61 @@ figcaption{
 	margin: 0;
 }
 
+/*TABLE*/
+table{
+	border-collapse: separate;
+	border-spacing: 0.5em;
+}
+
+table caption{
+	font-family: "Sora", sans-serif;
+}
+
+th{
+	font-family: "Shrikhand", serif;
+	font-size: 1.25em;
+	font-weight: 400;
+	color: #FFFFFF;
+	background-color: #6C73B6;
+	padding: 0.5em;
+}
+
+tr{
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+
+td{
+	background-color: #CCCCCC;
+	padding: 0.5em;
+}
+
+/*FORMS*/
+label{
+	text-align: left;
+	float: left;
+	width: 25%
+}
+
+.inputs{
+	width: 70%;
+	padding: 0.5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #CCCCCC;
+	border: 0px;
+	
+}
+
 /*WRAPPER*/
 #wrapper {
 	max-width: 1280px;
 	margin: 0 auto;
 }
 
+
+/*HEADER*/
 header{
 	background-color: #6C73B6;
 	min-height: 200px;
@@ -92,6 +157,7 @@ header{
 	box-sizing: border-box;
 }
 
+/*NAVIGATION*/
 nav{
 	font-size: 0.8em;
 	text-transform: uppercase;
@@ -126,10 +192,12 @@ nav a:hover, nav a:focus{
 	border-bottom: none;
 }
 
+/*CONTENT*/
 main{
 	background-color: #FFFFFF;
 	width: 100%;
 	min-height: 500px;
+	margin-bottom: 1em;
 	padding: 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -140,22 +208,43 @@ main{
 	width: 100%;
 }
 
+/*ASIDE*/
 aside{
-	background-color: #575757;
+	background-color: #FFFFFF;
+	margin-bottom: 1em;
 	padding: 20px;
 	width: 100%;
 	min-height: 250px;
-	color: #FFFFFF;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	text-align: center;
 }
 
+aside h1{
+	line-height: 1.5em;
+}
+
+/*FOOTER ASIDE*/
+.footer_aside{
+	background-color: #575757;
+	width: 100%;
+	min-height: 250px;
+	color: #FFFFFF;
+	
+}
+
+/*FOOTER*/
 footer{
-	background-color: #6C73B6; 
 	color: #FFFFFF;
 	font-size: 0.8em;
 	text-transform: uppercase;
+	background-color: #6C73B6; 
+	padding: 1em;
+}
+
+footer h1, footer h2, footer h3, footer h4{
+	text-align: center;
 }
 
 footer a:link, footer a:visited, footer a:active{
@@ -169,6 +258,11 @@ footer a:hover, footer a:focus{
 	border-bottom: none;
 }
 
+footer nav{
+	background-color: #6C73B6;
+	
+}
+
 /*CUSTOM STYLES*/
 .clearfix{
 	clear: both;
@@ -179,9 +273,9 @@ footer a:hover, footer a:focus{
 	text-align: center;
 }
 .content_columns{
-	-webkit-column-count: 2;
-	-moz-column-count: 2;
-	column-count: 2;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
 	-webkit-column-gap: 1.5em;
 	-moz-column-gap: 1.5em;
 	column-gap: 1.5em;

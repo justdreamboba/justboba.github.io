@@ -7,9 +7,10 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="css/normalize.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<link href="../css/normalize.css" rel="stylesheet" type="text/css">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Shrikhand&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/68a81dba73.js" crossorigin="anonymous"></script>
 <!-- TemplateParam name="Main only" type="boolean" value="true" -->
 <!-- TemplateParam name="Main and Aside" type="boolean" value="true" -->
 </head>
@@ -34,6 +35,14 @@
 		<!-- TemplateBeginEditable name="Full width page content" -->Full width page content goes here. 
 		<!-- TemplateEndEditable --> 
 	</main>
+	<aside class="footer_aside">
+		<h2>Join the Just Boba Family!</h2>
+		<p>Sign up to recieve the latest news and exclusive promotions</p>
+		<form>
+			<input name="Email" type="email" required= "required" class="inputs" id="Email" placeholder="Your email ...">
+			<input name="Submit" type="submit" class="button" id="Submit">
+		</form>
+	</aside>
 	<!-- TemplateEndIf -->
 	
 	<!-- TemplateBeginIf cond="_document['Main and Aside']" -->
@@ -42,15 +51,31 @@
 		<!-- TemplateEndEditable --> 
 	</main>
     <aside>
-		<h2>Join the Just Boba Family!</h2>
-		<p>Sign up to receive the latest news, and exclusive promotions</p>
-		<p><a href="#"class="button">JOIN</a></p>
+		<h2>Our Values</h2>
+		<div class="content_columns"> Quailty
+			<p>We believe the quality of our drinks and the quality of our team members are high and persistent.</p>
+			<p>Passion</p>
+			<p>We believe our team should have a high drive for passion and energy for our shop.</p>
+			<p>Comfort</p>
+			<p>We believe our teams treat customers with respect that allow them to feel the comfort of their homes.</p>
+		</div>
 	</aside>
 	<!-- TemplateEndIf -->
 	<div class="clearfix"></div>
 	
 	<footer>
-		<p>© COPYRIGHT 2024 JUST BOBA  •  TERMS OF USE  •  <a href="../privacy policy/index.html">PRIVACY POLICY</a></p>
+		<h3>Socials</h3>
+		<nav>
+			<ul>
+				<li><a href="#"><i class="fa-brands fa-facebook fa-7x"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-snapchat fa-7x"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-twitter fa-7x"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-instagram fa-7x"></i></a></li>
+			</ul>
+		</nav>
+		<nav>
+			<p>&copy; COPRIGHT 2024 JUST BOBA &middot; TERMS OF USE &middot; <a href="../privacy policy/index.html">PRIVACY POLICY</a></p>
+		</nav>
 	</footer>
 </div>
 </body>
