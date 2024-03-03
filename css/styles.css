@@ -57,6 +57,13 @@ a:hover, a:focus{
 }
 
 /*IMAGES*/
+
+img{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+}
 .left_align{
 	float:left;
 	margin-right: 0 1em 0 0;
@@ -122,6 +129,10 @@ td{
 	padding: 0.5em;
 }
 
+.table_replacement{
+	display: none;
+}
+
 /*FORMS*/
 label{
 	text-align: left;
@@ -155,6 +166,14 @@ header{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	text-align: center;
+}
+
+/*LOGO STYLES*/
+.logo img{
+	max-width: 100%;
+	height: auto;
+	margin: 0;
 }
 
 /*NAVIGATION*/
@@ -190,6 +209,28 @@ nav a:link, nav a:visited, nav a:active{
 nav a:hover, nav a:focus{
 	color: #CCCCCC; 
 	border-bottom: none;
+}
+
+.primary_navigation{
+	
+}
+
+.mobile_menu{
+	text-decoration: none;
+	border-bottom: none;
+	color: #FFFFFF;
+	background-color: #575757;
+	text-align: center;
+	padding: 1em 0;
+	display: none;
+}
+
+nav input[type=checkbox]{
+		display: none;
+	}
+
+nav input[type=checkbox]{
+	display: block;
 }
 
 /*CONTENT*/
@@ -281,3 +322,114 @@ footer nav{
 	column-gap: 1.5em;
 	
 }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 768px){
+	.content_columns{
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+	
+	
+	label{
+		width: 100%;
+		clear: both;
+	}
+
+	.inputs{
+		width: 100%;
+	}
+	
+	#menu{
+		display: none;
+	}
+	
+	.mobile_menu{
+		display: block;
+	}
+	
+	.primary_navigation{
+		padding: 0;
+	}
+	
+	.primary_navigation ul{
+		padding: 0;
+	}
+	
+	.primary_navigation li{
+		display: block;
+		margin-right: 0;
+		margin-left: 0;
+		margin: 0 auto;
+		padding: 0.5em;
+	}
+	
+	.primary_navigation li:active{
+		background-color: #6C73B6;
+	}
+	
+	.primary_navigation a:active{
+		color: #FFFFFF;
+	}
+	
+	.logo{
+		float: none;
+		text-align: center;
+	}
+	
+	.left_align{
+		float:none;
+		margin-right: 0 auto;
+	}
+
+	.right_align{
+		float:none;
+		margin-left: 0 auto;
+	}
+	
+	.main_with_aside{
+		width: 100%;
+		padding: 20px;
+		clear: both;
+	}
+	
+	aside{
+		width: 100%;
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.content_columns{
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+	
+	.main_with_aside{
+		padding: 20px;
+		
+	}
+	
+	header{
+		min-height: 140px;
+	}
+	
+	aside{
+		padding: 20px;
+	}
+	
+	table{
+		display: none;
+	}
+	
+	.table_replacement{
+		display: block;
+		text-align: center;
+		padding: 0.5em;
+		background-color: #CCCCCC;
+	}
+}
+
+

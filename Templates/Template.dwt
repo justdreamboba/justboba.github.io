@@ -7,8 +7,8 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="css/normalize.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="../css/normalize.css" rel="stylesheet" type="text/css">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Shrikhand&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/68a81dba73.js" crossorigin="anonymous"></script>
 <!-- TemplateParam name="Main only" type="boolean" value="true" -->
@@ -18,10 +18,14 @@
 <body>
 <div id="wrapper">
 	<header>
-    	<a href="../index.html"><img src="../media/justboba_logo.PNG" width="500" height="170" alt=""/></a> 
+    	<div>
+		<a href="../index.html"><img src="../media/justboba_logo.PNG" width="500" height="170" alt="Coffee Shop"/></a> 
+		</div>
 	</header>
-	<nav>
-	 <ul>
+	<nav class="primary_navigation">
+	<input type="checkbox" id="show_menu">
+	<label for="show_menu" aria-hidden="true" class="mobile_menu"><i class="fa-solid fa-bars"></i></label>
+	 <ul id="menu">
 		<li><a href="../index.html">Home</a></li>
 		<li><a href="../about/index.html">About Us</a></li>
 		<li><a href="../menu/index.html">Menu</a></li>
