@@ -229,7 +229,7 @@ nav input[type=checkbox]{
 		display: none;
 	}
 
-nav input[type=checkbox]{
+nav input[type=checkbox]:checked~#menu{
 	display: block;
 }
 
