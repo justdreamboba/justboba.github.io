@@ -7,8 +7,8 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="css/normalize.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="../css/normalize.css" rel="stylesheet" type="text/css">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Shrikhand&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/68a81dba73.js" crossorigin="anonymous"></script>
 <!-- TemplateParam name="Main only" type="boolean" value="true" -->
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<div id="wrapper">
+<div id="header_nav">
 	<header>
     	<div>
 		<a href="../index.html"><img src="../media/justboba_logo.PNG" width="500" height="170" alt="Coffee Shop"/></a> 
@@ -33,7 +33,9 @@
 		<li><a href="../contact/index.html">Contact Us</a></li>
 	 </ul>
 	</nav>
-	
+</div>
+	<div id="header_space"></div>
+	<div id="wrapper">
   	<!-- TemplateBeginIf cond="_document['Main only']" -->
   	<main> 
 		<!-- TemplateBeginEditable name="Full width page content" -->Full width page content goes here. 
