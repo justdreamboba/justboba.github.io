@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "Comfortaa", sans-serif;
+	background-color: #CCCCCC;
+	font-size: 20px;
+	color: #6C73B6;
+	line-height: 1.5em; /*30px*/
+}
+
+h1{
+	font-family: "Sora", sans-serif;
+}
+
+h2{
+	font-family: "Sora", sans-serif;
+	color: #B6BBE3;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+}
+
+h3{
+	font-family: "Shrikhand", serif;
+	font-size: 2em;
+	font-weight: 400;
+	text-align: center;
+}
+
+/*LINKS*/
+a:link, a:visited, a:active{
+	color: #6C73B6;
+	font:italicbold;
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	color: #444444;
+	text-decoration: none;
+}
+
+/*BUTTON*/
+.button,.button:link, .button:visited, .button:active{
+	color: #6C73B6;
+	background-color: #B6BBE3;
+	padding: 1em;
+	margin-top: 1.5em;
+	max-width: 400px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.button:hover, .button:focus{
+	background-color: #CCCCCC;
+	border-bottom: none;
+	border: 2px solid #000000;
+}
+
+/*IMAGES*/
+.left_align{
+	float:left;
+	margin-right: 0 1em 0 0;
+}
+
+.right_align{
+	float:right;
+	margin-left: 1em;
+}
+
+figure{
+	outline: #444444 3px solid;
+	padding: o;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+figure img{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+figcaption{
+	color: #FFFFFF;
+	background: #444444;
+	text-align: center;
+	font-size: 0.8em;
+	line-height: 1em;
+	font-style: italic;
+	padding: 0.5em;
+	margin: 0;
+}
+
+/*TABLE*/
+table{
+	border-collapse: separate;
+	border-spacing: 0.5em;
+}
+
+table caption{
+	font-family: "Sora", sans-serif;
+}
+
+th{
+	font-family: "Shrikhand", serif;
+	font-size: 1.25em;
+	font-weight: 400;
+	color: #FFFFFF;
+	background-color: #6C73B6;
+	padding: 0.5em;
+}
+
+tr{
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+
+td{
+	background-color: #CCCCCC;
+	padding: 0.5em;
+}
+
+/*FORMS*/
+label{
+	text-align: left;
+	float: left;
+	width: 25%
+}
+
+.inputs{
+	width: 70%;
+	padding: 0.5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #CCCCCC;
+	border: 0px;
+	
+}
+
+/*WRAPPER*/
+#wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #6C73B6;
+	min-height: 200px;
+	padding: 1em; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*NAVIGATION*/
+nav{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	background-color: #575757;
+	padding: 1em;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+	margin-right: 3.5em;
+}
+
+nav li:last-child{
+	margin-right: 0;
+}
+
+nav a:link, nav a:visited, nav a:active{
+	color: #FFFFFF;
+}
+
+nav a:hover, nav a:focus{
+	color: #CCCCCC; 
+	border-bottom: none;
+}
+
+/*CONTENT*/
+main{
+	background-color: #FFFFFF;
+	width: 100%;
+	min-height: 500px;
+	margin-bottom: 1em;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.main_with_aside{
+	width: 100%;
+}
+
+/*ASIDE*/
+aside{
+	background-color: #FFFFFF;
+	margin-bottom: 1em;
+	padding: 20px;
+	width: 100%;
+	min-height: 250px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+aside h1{
+	line-height: 1.5em;
+}
+
+
+/*FOOTER*/
+footer{
+	color: #FFFFFF;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	background-color: #6C73B6; 
+	padding: 1em;
+}
+
+footer h1, footer h2, footer h3, footer h4{
+	text-align: center;
+}
+
+footer a:link, footer a:visited, footer a:active{
+	color: #B6BBE3;
+	text-decoration: none;
+}
+
+footer a:hover, footer a:focus{
+	color: #FFFFFF; 
+	text-decoration: none;
+	border-bottom: none;
+}
+
+footer nav{
+	background-color: #6C73B6;
+	
+}
+
+/*CUSTOM STYLES*/
+.clearfix{
+	clear: both;
+}
+
+.centered_content-box{
+	margin: 0 auto;
+	text-align: center;
+}
+.content_columns{
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 1.5em;
+	-moz-column-gap: 1.5em;
+	column-gap: 1.5em;
+	
+}

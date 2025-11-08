@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/normalize.css" rel="stylesheet" type="text/css">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Shrikhand&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/68a81dba73.js" crossorigin="anonymous"></script>
+<!-- TemplateParam name="Main only" type="boolean" value="true" -->
+<!-- TemplateParam name="Main and Aside" type="boolean" value="true" -->
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+    	<a href="../index.html"><img src="../media/justboba_logo.PNG" width="500" height="170" alt=""/></a> 
+	</header>
+	<nav>
+	 <ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="../about/index.html">About Us</a></li>
+		<li><a href="../menu/index.html">Menu</a></li>
+		<li><a href="../gallery/index.html">Gallery</a></li> 
+		<li><a href="../contact/index.html">Contact Us</a></li>
+	 </ul>
+	</nav>
+	
+  	<!-- TemplateBeginIf cond="_document['Main only']" -->
+  	<main> 
+		<!-- TemplateBeginEditable name="Full width page content" -->Full width page content goes here. 
+		<!-- TemplateEndEditable --> 
+	</main>
+	<!-- TemplateEndIf -->
+	
+	<!-- TemplateBeginIf cond="_document['Main and Aside']" -->
+	<main class="main_with_aside"> 
+		<!-- TemplateBeginEditable name="Main Page Content" -->Main Page Content goes here. 
+		<!-- TemplateEndEditable --> 
+	</main>
+    <aside>
+		<h2>Our Values</h2>
+		<div class="content_columns"> Quailty
+			<p>We believe the quality of our drinks and the quality of our team members are high and persistent.</p>
+			<p>Passion</p>
+			<p>We believe our team should have a high drive for passion and energy for our shop.</p>
+			<p>Comfort</p>
+			<p>We believe our teams treat customers with respect that allow them to feel the comfort of their homes.</p>
+		</div>
+	</aside>
+	<!-- TemplateEndIf -->
+	<div class="clearfix"></div>
+	
+	<footer>
+		<h3>Socials</h3>
+		<nav>
+			<ul>
+				<li><a href="#"><i class="fa-brands fa-facebook fa-7x"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-snapchat fa-7x"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-twitter fa-7x"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-instagram fa-7x"></i></a></li>
+			</ul>
+		</nav>
+		<nav>
+			<p>&copy; COPRIGHT 2024 JUST BOBA &middot; TERMS OF USE &middot; <a href="../privacy policy/index.html">PRIVACY POLICY</a></p>
+		</nav>
+	</footer>
+</div>
+</body>
+</html>
